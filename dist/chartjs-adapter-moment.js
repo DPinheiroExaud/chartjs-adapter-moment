@@ -5,8 +5,8 @@
   * Released under the MIT license
   */
 (function (global, factory) {
-typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('moment'), require('chart.js')) :
-typeof define === 'function' && define.amd ? define(['moment', 'chart.js'], factory) :
+typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('moment'), require('chartjs')) :
+typeof define === 'function' && define.amd ? define(['moment', 'chartjs'], factory) :
 (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.moment, global.Chart));
 }(this, (function (moment, chart_js) { 'use strict';
 
